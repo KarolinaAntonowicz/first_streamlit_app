@@ -50,7 +50,7 @@ if streamlit.button('Get Fruit Load List'):
   mt_cnx.close()
   streamlit.dataframe(my_data_rows)
 
-streamlit.header("Fruit load list contains:")
+streamlit.header("View Our Fruit List -Add Your Favourites!")
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Jackfruit')
 streamlit.write('The user entered ', fruit_choice)
 
